@@ -1,0 +1,25 @@
+.screen{
+    text-align: center;
+}
+.screenInput{
+    font-size: 35px;
+    padding: 10px;
+    width: 88%;
+    text-align: right;
+    outline-color: white;
+    margin: 10px;
+    background-color: white;
+}
+.lightInput{
+    color: white;
+    background-color: white;
+}
+.darkInput{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width: 425px){
+    .screenInput{
+        font-size: 35px;
+    }
+}
